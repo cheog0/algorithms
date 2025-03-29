@@ -1,6 +1,7 @@
-n,m = map(int,input().split())
-set1 = set(map(int, input().split()))
-set2 = set(map(int, input().split()))
+num = int(input())
+li = []
 
+for i in range(num):
+    li.append(int(input()))
 
-print(len(set1 ^ set2))
+print(li)
